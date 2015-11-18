@@ -1,8 +1,4 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package proyectofinal;
 
 /**
@@ -14,7 +10,7 @@ public class ProyectoFinal {
     
     
     public static void reconocedorDeFunción(String metodos) {
-        ÁrbolBinarioB miArbol = new ÁrbolBinarioB();
+        ArbolBinarioB miArbol = new ArbolBinarioB();
         int in;
         int ul;
         String [] cadenaDeMetodos = metodos.split("&");
@@ -90,6 +86,7 @@ public class ProyectoFinal {
         try {
         reconocedorDeFunción(args[indicePrincipal]);
         }catch(Exception error){
-        System.out.println("el formato de la cadena de funciones es incorrecto");
+        System.out.println(" EL FORMATO DE CADENAS DE FUNCIONES ES INCORRECTO");
         }
     }
+}
