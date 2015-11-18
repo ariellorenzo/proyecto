@@ -6,9 +6,7 @@ package proyectofinal;
  * @author salvador ariel
  */
 public class ProyectoFinal {
-    
-    
-    
+
     public static void reconocedorDeFunción(String metodos) {
         ArbolBinarioB miArbol = new ArbolBinarioB();
         int in;
